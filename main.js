@@ -17,7 +17,7 @@
 // );
 
 //METODO 2
-const hambugerIcon = document.querySelector('i.fas.fa-bars');
+const hambugerIcon = document.querySelector('.header-right > a');
 const hamburgerMenu = document.querySelector('.hamburger-menu');
 
 hambugerIcon.addEventListener('click', 
@@ -33,3 +33,6 @@ closehamburgerMenu.addEventListener('click',
         hamburgerMenu.classList.remove('active');
     }
 );
+
+
+
